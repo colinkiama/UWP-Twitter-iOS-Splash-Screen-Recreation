@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitterIOSSplash", "twitterIOSSplash\twitterIOSSplash.csproj", "{29F860AB-BC46-4C07-82F4-502BDB653B84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|ARM.ActiveCfg = Debug|ARM
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|ARM.Build.0 = Debug|ARM
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|ARM.Deploy.0 = Debug|ARM
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|x64.ActiveCfg = Debug|x64
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|x64.Build.0 = Debug|x64
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|x64.Deploy.0 = Debug|x64
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|x86.ActiveCfg = Debug|x86
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|x86.Build.0 = Debug|x86
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Debug|x86.Deploy.0 = Debug|x86
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|ARM.ActiveCfg = Release|ARM
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|ARM.Build.0 = Release|ARM
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|ARM.Deploy.0 = Release|ARM
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|x64.ActiveCfg = Release|x64
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|x64.Build.0 = Release|x64
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|x64.Deploy.0 = Release|x64
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|x86.ActiveCfg = Release|x86
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|x86.Build.0 = Release|x86
+		{29F860AB-BC46-4C07-82F4-502BDB653B84}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47C0EBB3-1F58-4640-8E1E-B4209151DE1E}
+	EndGlobalSection
+EndGlobal
