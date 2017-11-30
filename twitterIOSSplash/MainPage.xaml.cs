@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.Toolkit.Uwp.UI.Animations;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -25,6 +26,14 @@ namespace twitterIOSSplash
         public MainPage()
         {
             this.InitializeComponent();
+            
+        }
+
+        protected async override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            await this.Scale(1.05f, 1.05f, (float)this.ActualWidth / 2, (float)this.ActualHeight / 2, 0).StartAsync();
+            await this.Scale(1, 1, (float)this.ActualWidth / 2, (float)this.ActualHeight / 2, 200).StartAsync();
         }
     }
 }

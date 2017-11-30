@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="twitterIOSSplash.MainPage"
+    x:Class="twitterIOSSplash.splash"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:twitterIOSSplash"
@@ -7,10 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="😋"
-           FontSize="300"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
+    <Grid Background="#55ACEE">
+        <Image Source="Assets/SplashScreen.png"
+               Name="theImage"/>
     </Grid>
 </Page>

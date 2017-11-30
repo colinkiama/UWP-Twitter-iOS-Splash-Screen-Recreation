@@ -50,13 +50,17 @@ namespace twitterIOSSplash
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
+                if (e.PreviousExecutionState != ApplicationExecutionState.Running)
                 {
-                    //TODO: Load state from previously suspended application
+                    bool loadState = (e.PreviousExecutionState == ApplicationExecutionState.Terminated);
+                    splash extendedSplash = new splash(e.SplashScreen, loadState);
+                    rootFrame.Content = extendedSplash;
+                    Window.Current.Content = rootFrame;
                 }
 
-                // Place the frame in the current Window
-                Window.Current.Content = rootFrame;
+
+                
+                
             }
 
             if (e.PrelaunchActivated == false)
