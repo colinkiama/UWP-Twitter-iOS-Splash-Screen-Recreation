@@ -1,5 +1,5 @@
 # UWP-Twitter-iOS-Splash-Screen-Recreation
-Shows how to get the same splash screen animation as the Twitter iOS app in your app!
+Shows how to get the similar splash screen animation as the Twitter iOS app in your app!
 
 ![Application Demo](img/twitterIOSSplashRecreation.gif)
 
@@ -7,4 +7,4 @@ Shows how to get the same splash screen animation as the Twitter iOS app in your
 1. App starts, blue background with twitter logo as splash screen
 2. App moves on to extended splash screen, keeping the same assets with the splash screen
 3. When app "finishes loading" (Delay was added to simulate loading time), a scale animation is applied to the splash screen image, zooming into the twitter logo.
-4. App then navigates to a new page.
+4. App then navigates to a new page and imediate scales in and out to create a bouncing effect.
