@@ -1,5 +1,5 @@
 # UWP-Twitter-iOS-Splash-Screen-Recreation
-Shows how to get the similar splash screen animation as the Twitter iOS app in your app!
+Shows how to create a splash screen animation that is similar Twitter iOS app in your own UWP app.
 
 ![Application Demo](img/twitterIOSSplashRecreation.gif)
 
